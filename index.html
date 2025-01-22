@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary to Decimal Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Binary & Decimal <br> Converter</h1>
+
+        <div class="input-area">
+            <textarea id="inputArea" placeholder="Enter binary or decimal..."></textarea>
+            <button class="reverse-button" onclick="reverseConversion()">⇄</button>
+            <textarea id="outputArea" placeholder="Result" readonly></textarea>
+        </div>
+
+        <button onclick="convert()">Convert</button>
+
+        <div class="result" id="errorMessage"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
