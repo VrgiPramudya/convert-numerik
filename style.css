@@ -89,7 +89,7 @@ button:hover {
 p{
     margin-top: 50px;
     color: #FFB22C;
-    font-size: 16px;
+    font-size: 14px;
 }
 @media (max-width: 768px) {
     h1{
